@@ -171,18 +171,19 @@ This study seeks to extend this approach by incorporating spatial and temporal d
 
 ## In Case We Want to Get Into the Weeds...
 
-+ TELs degrade educational labor supply (41)
-+ TELs may lower student performance (31,32)
-+ TELs increase reliance on non-tax revenue (61,38)
-+ TELs increase reliance on state funding for local services (102,103,99,8)
-+ TELs are often motivated by distrust of officials and belief in rampant waste (28)
-+ Residents often resent service cuts due to TELs (28)
-+ States with higher property taxes are more likely to pass TELs (1)
-+ TELs depress property tax revenue (97,89,35)
-+ Offsetting the revenue loss from TELs is more difficult with more stringent TELs (98)
-+ The impact of TELs varies widely across jurisdictions (16,89,73)
-+ TELs depress local spending (97,7,40)
-+ TELs reduce housing stock value by limiting the extent of educational service capitalization (16)
+<span style='font-size:70%'>&diams; Strong TELs have a cumulative depressive effect on revenue (Mikesell & Mullins 2008)</span></br>
+<span style='font-size:70%'>&diams; TELs degrade educational labor supply (Figlio & Rueben 2001)</span></br>
+<span style='font-size:70%'>&diams; TELs may lower student performance (Downes et al 1998; Downes & Figlio 1999)</span></br>
+<span style='font-size:70%'>&diams; TELs increase reliance on non-tax revenue (Joyce & Mullins 1991;Eberts & Gronberg 1981)</span></br>
+<span style='font-size:70%'>&diams; TELs increase reliance on state funding for local services (Sokolow 1998; Sokolow 2000; Shadbegian 2003)</span></br>
+<span style='font-size:70%'>&diams; TELs are often motivated by distrust of officials and belief in rampant waste (Cutler et al 1999)</span></br>
+<span style='font-size:70%'>&diams; Residents often resent service cuts due to TELs (Cutler et al 1999)</span></br>
+<span style='font-size:70%'>&diams; States with higher property taxes are more likely to pass TELs (Alm & Skidmore 1999)</span></br>
+<span style='font-size:70%'>&diams; TELs depress property tax revenue (Shadbegian 1998; Rown 2000; Dye & McGuire 1997)</span></br>
+<span style='font-size:70%'>&diams; Offsetting the revenue loss from TELs is more difficult with more stringent TELs (Shadbegian 1999)</span></br>
+<span style='font-size:70%'>&diams; The impact of TELs varies widely across jurisdictions (Bradbury et al 2001; Rown 2000; Mullins 2004)</span></br>
+<span style='font-size:70%'>&diams; TELs depress local spending (Shadbegian 1998; Bails & Tieslau 2000; Feld & Matsusaka 2003)</span></br>
+<span style='font-size:70%'>&diams; TELs reduce housing stock value by limiting the extent of educational service capitalization (Bradbury et al 2001)</span></br>
 
 ---
 
@@ -229,14 +230,14 @@ Yes, the interactions create modeling difficulties, but they also happen to prov
 ## Timeline
 
 <span style='font-weight:bold'>1913:</span> State-level property taxes limited to 15% annual growth.</br>
-<span style='font-weight:bold'>1964:</span> Local property taxes limited to 5% annual growth (<span style='color:red; font-weight:bold'>SLPTR</span>)</br>.
+<span style='font-weight:bold'>1964:</span> Local property taxes limited to 5% annual growth (<span style='color:red; font-weight:bold'>SLPTR</span>).</br>
 <span style='font-weight:bold'>1976:</span> SLPTR increased to 7%.</br>
-<span style='font-weight:bold'>1977:</span> State General Fund Appropriations limited to 7%, with 4% reserve required (Kadlecek Amendment)</br>.
+<span style='font-weight:bold'>1977:</span> State General Fund Appropriations limited to 7%, with 4% reserve required (Kadlecek Amendment).</br>
 <span style='font-weight:bold'>1979:</span> Kadlecek Amendment made permanent.</br>
 <span style='font-weight:bold'>1982:</span> <span style='color:red; font-weight:bold'>Gallagher Amendment</span> passed to hold constant the statewide residential share of property tax burden.</br>
 <span style='font-weight:bold'>1984:</span> Kadlecek limit increased to 7% plus costs of reappraisals.</br>
 <span style='font-weight:bold'>1988:</span> SLPTR limit reduced to 5.5%.</br>
-<span style='font-weight:bold'>1991:</span> State General Fund Appropriations limited to lesser of 5% of growth in state income or 6% over appropriations in the preceding year (Arveshoug-Bird Limit)</br>.
+<span style='font-weight:bold'>1991:</span> State General Fund Appropriations limited to lesser of 5% of growth in state income or 6% over appropriations in the preceding year (Arveshoug-Bird Limit).</br>
 <span style='font-weight:bold'>1992:</span> <span style='color:red; font-weight:bold'>TABOR</span> amendment passed.</br>
 
 ---
@@ -327,7 +328,7 @@ To the extent that the residential share in a given county is higher than the st
 
 ## Spatial Considerations
 
-Industrial bases and socioeconomic conditions do not abruptly shift out of respect for the county border.  Counties can and do share similarities with their neighbors.  Spatial autocorrelation is real.  Enter Local Indicators of Spatial Association (LISAs) [Anselin 1995](http://onlinelibrary.wiley.com/doi/10.1111/j.1538-4632.1995.tb00338.x/abstract):
+Industrial bases and socioeconomic conditions do not abruptly shift out of respect for the county border.  Counties can and do share similarities with their neighbors.  Spatial autocorrelation is real.  Enter Local Indicators of Spatial Association (LISAs) ([Anselin 1995](http://onlinelibrary.wiley.com/doi/10.1111/j.1538-4632.1995.tb00338.x/abstract)):
 
 #### Local Moran's $I_i$
 
@@ -360,10 +361,10 @@ Spatial autocorrelation, insofar as it incorporates information about observatio
 Local Moran's I and Getis & Ord's G* are complementary measures, insofar as they measure two different types of clustering.  Local Moran's I highlights pockets of similarity and disimilarity while Getis & Ord's G* highlight pockets of high and low values.
 
 <div style='text-align: center;'>
-  <img height='220' src='./assets/img/Moran_colors.png' />
+  <img height='220' src='./assets/img/Moran_colors.svg' />
 </div>
 <div style='text-align: center;'>
-  <img height='220' src='./assets/img/GO_colors.png' />
+  <img height='220' src='./assets/img/GO_colors.svg' />
 </div>
 ---
 
@@ -380,10 +381,10 @@ Defining the local neighborhood is somewhat analagous to defining the memory str
 ## Weight Matrices
 
 <div style='text-align: center;'>
-  <img height='230' src='./assets/img/w_def.png' />
+  <img height='230' src='./assets/img/w_def.svg' />
 </div>
 <div style='text-align: center;'>
-  <img height='230' src='./assets/img/decay_curves.png' />
+  <img height='350' src='./assets/img/decay_curves.svg' />
 </div>
 
 ---
@@ -438,13 +439,13 @@ Depress|Fixed Effect|`pcap`|`tel_vars + rev_regress`|1
 
 ## Do TELs Increase Fiscal Convergence?
 
-*** =left width:80%
+*** =left width:75%
 
 <div style='text-align: center;'>
   <img width='700' src='./assets/img/converge_LISAs.png' />
 </div>
 
-*** =right width:20%
+*** =right width:25%
 
 COTEL intensity has no discernable impact on fiscal convergence.  That is, it does not increase or decrease the level of spatial clustering in `pcrev` or `pcap`.  The Gallagher Ratio, by contrast, increases clustering in `pcrev` amongst lower revenue counties.
 
@@ -708,16 +709,18 @@ In general, this study does not provide precise impacts.  Rather, the goal is ag
 </br>
 <div style='text-align: center;'>
   <img width='400' src=http://www.codeinstitute.net/wp-content/uploads/2014/10/python-logo.png />
+  <img hspace='80'/>
   <img width='200' src=http://cran.us.r-project.org/Rlogo.jpg />
 </div>
-
+</br>
 </br>
 <div style='text-align: center;'>
   <img width='300' src=http://www.cicad.oas.org/fortalecimiento_institucional/dtca/images/au.jpg />
+  <img hspace='40'/>
   <img width='210' src=http://cfo.dc.gov/sites/default/files/dc/dcgov_logo.jpg />
+  <img hspace='40'/>
   <img width='170' src=http://www.cbo.gov/sites/default/files/cbofiles/images/pubs-images/49xxx/49954-40th_Logo.png />
 </div>
-
 </br>
 </br>
 Yes, there were three different employers during this dissertation ... why do you ask?
